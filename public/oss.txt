@@ -1,0 +1,7 @@
+This page was made possible by the following cool open source projects:
+- [Astro](https://astro.build/)
+- [React](https://reactjs.org/)
+- [Bun](https://bun.sh/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+Euro Logo by lucide.dev
