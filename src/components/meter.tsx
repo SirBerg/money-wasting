@@ -122,15 +122,12 @@ export default function Meter(){
                                 }
                                 setState(state == "running" ? "stopped" : "running");
                                 if(state == "stopped"){
+                                    setShowPopup(false)
                                     setTimeline([{
                                         startTime: Date.now(),
                                         endTime: -1,
                                         effect: 1
                                     }])
-                                }
-                                else{
-                                    const newTimeline = timeline;
-                                    newTimeline[newTimeline.length - 1].endTime = Date.now();
                                 }
                             }}>{state == "running" ? 'Stop' : 'Start'}
                         </button>
