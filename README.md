@@ -13,6 +13,6 @@ To set up the development environment, follow these steps:
    ```
 3. Start the development server:
 ```bash
-   bun dev
+   bun run dev
    ```
 4. Open your browser and navigate to `http://localhost:4321` to see the application in action.
