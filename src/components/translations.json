@@ -1,0 +1,198 @@
+{
+  "mode": {
+    "any": {
+      "amount_countdown": {
+        "en": "Enter the amount you want to countdown from",
+        "de": "Geben Sie den Betrag ein, von dem Sie herunterzählen möchten"
+      },
+      "zen_mode": {
+        "en": "Enable Zen Mode",
+        "de": "Zen-Modus aktivieren"
+      },
+      "less_depressing_mode": {
+        "en": "Enable Less Depressing Mode",
+        "de": "Weniger deprimierenden Modus aktivieren"
+      },
+      "more_depressing_mode": {
+        "en": "Enable More Depressing Mode",
+        "de": "Deprimierenderen Modus aktivieren"
+      },
+      "change_language": {
+        "en": "Change Language",
+        "de": "Sprache ändern"
+      },
+      "see_leaderboard": {
+        "en": "See Leaderboard",
+        "de": "Bestenliste ansehen"
+      },
+      "meeting_name_placeholder": {
+        "en": "Enter Meeting Name (optional)",
+        "de": "Geben Sie den Meeting-Namen ein (optional)"
+      },
+      "save_to_leaderboard": {
+        "en": "Save to Leaderboard",
+        "de": "In Bestenliste speichern"
+      },
+      "saved": {
+        "en": "Saved!",
+        "de": "Gespeichert!"
+      },
+      "leaderboard_heading": {
+        "en": "Leaderboard",
+        "de": "Bestenliste"
+      },
+      "leaderboard_meeting_name": {
+        "en": "Meeting Name",
+        "de": "Meeting-Name"
+      },
+      "leaderboard_time_elapsed": {
+        "en": "Time Elapsed",
+        "de": "Verstrichene Zeit"
+      },
+      "leaderboard_people_present": {
+        "en": "People Present",
+        "de": "Anwesende Personen"
+      },
+      "leaderboard_action_delete": {
+        "en": "Delete",
+        "de": "Löschen"
+      },
+      "leaderboard_ranking": {
+        "en": "Rank",
+        "de": "Rang"
+      },
+      "leaderboard_not_meetings_saved_yet": {
+        "en": "No meetings saved yet.",
+        "de": "Noch keine Meetings gespeichert."
+      },
+      "go_back": {
+        "en": "Go Back",
+        "de": "Zurück"
+      }
+    },
+    "normal": {
+      "money_wasted": {
+        "en": "Money Wasted",
+        "de": "Geld Verschwendet"
+      },
+      "time_elapsed": {
+        "en": "Time Elapsed",
+        "de": "Verstrichene Zeit"
+      },
+      "paused": {
+        "en": "Pause",
+        "de": "Pausieren"
+      },
+      "start": {
+        "en": "Start",
+        "de": "Starten"
+      },
+      "stop": {
+        "en": "Stop",
+        "de": "Stopp"
+      },
+      "continue": {
+        "en": "Continue",
+        "de": "Fortsetzen"
+      },
+      "timer_paused_heading": {
+        "en": "I've paused the timer! Why is the money still increasing?",
+        "de": "Ich habe den Timer pausiert! Warum steigt das Geld trotzdem weiter an?"
+      },
+      "timer_paused_answer": {
+        "en": "The timer is paused, however you've only paused your session. You are still wasting money until you've completed your task!",
+        "de": "Der Timer ist pausiert, aber du hast nur deine Sitzung pausiert. Du verschwendest weiterhin Geld, bis du deine Aufgabe abgeschlossen hast!"
+      },
+      "mean_salary_present_heading": {
+        "en": "Mean Salary of People Present (per Hour)",
+        "de": "Durchschnittsgehalt der Anwesenden (pro Stunde)"
+      },
+      "people_present": {
+        "en": "People Present",
+        "de": "Anwesende Personen"
+      },
+      "currency": {
+        "en": "Currency",
+        "de": "Währung"
+      },
+      "timer_stopped_heading": {
+        "en": "Great job! You've stopped the timer. If you want you can share your results on teams:",
+        "de": "Großartige Arbeit! Du hast den Timer gestoppt. Wenn du möchtest, kannst du deine Ergebnisse mit Microsoft Teams teilen:"
+      },
+      "timer_stopped_save_to_leaderboard":{
+        "en": "Or save your result to your local leaderboard to track how much you wasted over time.",
+        "de": "Oder speichere dein Ergebnis in deiner lokalen Bestenliste, um zu verfolgen, wie viel du im Laufe der Zeit verschwendet hast."
+      },
+      "teams_message": {
+        "en": "We just wasted {money} in {time}!",
+        "de": "Wir haben gerade {money} in {time} verschwendet!"
+      },
+      "leaderboard_money_wasted": {
+        "en": "Money Wasted",
+        "de": "Geld Verschwendet"
+      }
+    },
+    "less_depressing": {
+      "money_wasted": {
+        "en": "Money Invested",
+        "de": "Geld Investiert"
+      },
+      "time_elapsed": {
+        "en": "Time Elapsed",
+        "de": "Verstrichene Zeit"
+      },
+      "paused": {
+        "en": "Pause",
+        "de": "Pausieren"
+      },
+      "start": {
+        "en": "Start",
+        "de": "Starten"
+      },
+      "stop": {
+        "en": "Stop",
+        "de": "Stopp"
+      },
+      "continue": {
+        "en": "Continue",
+        "de": "Fortsetzen"
+      },
+      "timer_paused_heading": {
+        "en": "I've paused the timer! Why is the money still increasing?",
+        "de": "Ich habe den Timer pausiert! Warum steigt das Geld trotzdem weiter an?"
+      },
+      "timer_paused_answer": {
+        "en": "The timer is paused, however you've only paused your session. You are still investing money until you've completed your task!",
+        "de": "Der Timer ist pausiert, aber du hast nur deine Sitzung pausiert. Du investiert weiterhin Geld, bis du deine Aufgabe abgeschlossen hast!"
+      },
+      "mean_salary_present_heading": {
+        "en": "Mean Salary of People Present (per Hour)",
+        "de": "Durchschnittsgehalt der Anwesenden (pro Stunde)"
+      },
+      "people_present": {
+        "en": "People Present",
+        "de": "Anwesende Personen"
+      },
+      "currency": {
+        "en": "Currency",
+        "de": "Währung"
+      },
+      "timer_stopped_heading": {
+        "en": "Great job! You've stopped the timer. If you want you can share your results on teams:",
+        "de": "Großartige Arbeit! Du hast den Timer gestoppt. Wenn du möchtest, kannst du deine Ergebnisse mit Microsoft Teams teilen:"
+      },
+      "timer_stopped_save_to_leaderboard":{
+        "en": "Or save your result to your local leaderboard to track how much you invest over time.",
+        "de": "Oder speichere dein Ergebnis in deiner lokalen Bestenliste, um zu verfolgen, wie viel du im Laufe der Zeit investiert hast."
+      },
+      "teams_message": {
+        "en": "We just invested {money} in {time}!",
+        "de": "Wir haben {money} in {time} investiert!"
+      },
+      "leaderboard_money_wasted": {
+        "en": "Money Invested",
+        "de": "Geld Investiert"
+      }
+    }
+  }
+}
