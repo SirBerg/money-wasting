@@ -135,12 +135,26 @@ export default function Meter(){
     const [initialAmount, setInitialAmount] = useState(0)
     const [showLeaderboard, setShowLeaderboard] = useState(false)
     const [runSaved, setRunSaved] = useState(false)
+    const [disableZenMode, setDisableZenMode] = useState(false)
     const [timeline, setTimeline] = useState<Array<{
         startTime: number,
         endTime: number,
         effect: number
     }>>([])
     useEffect(() => {
+        function canGoFullscreen() {
+            const el = document.body;
+            return (
+                typeof el.requestFullscreen !== 'undefined' ||
+                typeof el.mozRequestFullScreen !== 'undefined' ||
+                typeof el.webkitRequestFullscreen !== 'undefined' ||
+                typeof el.msRequestFullscreen !== 'undefined' ||
+                typeof document.exitFullscreen !== 'undefined' ||
+                typeof document.mozCancelFullScreen !== 'undefined' ||
+                typeof document.webkitExitFullscreen !== 'undefined'
+            );
+        }
+        setDisableZenMode(!canGoFullscreen());
         console.log('translations', translations.mode.normal)
     }, []);
     useEffect(() => {
@@ -308,7 +322,7 @@ export default function Meter(){
                 }
             </div>
             {
-                (state == "running" || state == "paused") ?
+                (state == "running" || state == "paused") && !disableZenMode ?
                     <button
                         id="zenModeButton"
                         className="rounded-md border border-none shadow-sm p-4 grow"
@@ -316,7 +330,9 @@ export default function Meter(){
                             let zenMode;
                             if(!document.fullscreenElement){
                                 zenMode = true
-                                document.documentElement.requestFullscreen();
+                                document.documentElement.requestFullscreen().then((res)=>{
+                                    console.log(res, "entered fullscreen");
+                                });
                             }
                             else{
                                 zenMode = false
