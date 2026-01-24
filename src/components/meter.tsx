@@ -313,14 +313,19 @@ export default function Meter(){
                         id="zenModeButton"
                         className="rounded-md border border-none shadow-sm p-4 grow"
                         onClick={()=>{
+                            let zenMode;
                             if(!document.fullscreenElement){
-                                setZenMode(true)
+                                zenMode = true
                                 document.documentElement.requestFullscreen();
                             }
                             else{
-                                setZenMode(false)
+                                zenMode = false
                                 document.exitFullscreen();
                             }
+                            if(zenMode === undefined){
+                                zenMode = false
+                            }
+                            setZenMode(zenMode);
                         }}
                     >
                         Toggle Zen Mode
